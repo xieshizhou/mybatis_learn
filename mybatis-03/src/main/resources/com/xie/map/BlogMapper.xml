@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace绑定一个对应的Dao/Mapper接口-->
+<mapper namespace="com.xie.map.BlogMapper">
+   <insert id="addBook" parameterType="Blog">
+       insert into blog (id,title,author,create_time,views)
+       values (#{id},#{title},#{author},#{createTime},#{views});
+   </insert>
+    <select id="getBlogByTitle" parameterType="string" resultMap="BlogMap">
+        select * from blog where title = #{title};
+    </select>
+    <resultMap id="BlogMap" type="Blog">
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+</mapper>

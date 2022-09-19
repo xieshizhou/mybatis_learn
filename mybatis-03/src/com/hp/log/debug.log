@@ -1,0 +1,154 @@
+2022-09-19 09:56:44 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-09-19 09:56:44 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-09-19 09:56:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 09:56:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 09:56:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 09:56:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 09:56:45 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2022-09-19 09:56:46 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 90205195.
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: insert into blog (id,title,author,create_time,views) values (?,?,?,?,?); 
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 42b8ea9cd9fd49d5ab9767145f6b3b30(String), Mybatis如此简单(String), 谢仕洲(String), 2022-09-19 09:56:45.878(Timestamp), 9999(Integer)
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==    Updates: 1
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: insert into blog (id,title,author,create_time,views) values (?,?,?,?,?); 
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 4034f8e99bec4c2e88ad8f2c1d0ca70e(String), Java如此简单(String), 谢仕洲(String), 2022-09-19 09:56:45.878(Timestamp), 9999(Integer)
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==    Updates: 1
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: insert into blog (id,title,author,create_time,views) values (?,?,?,?,?); 
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 218505a070b543e09a33fd1a84a0a05b(String), Spring如此简单(String), 谢仕洲(String), 2022-09-19 09:56:45.878(Timestamp), 9999(Integer)
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==    Updates: 1
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: insert into blog (id,title,author,create_time,views) values (?,?,?,?,?); 
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: f2c9bb071a354139b40829d522b0d190(String), 微服务如此简单(String), 谢仕洲(String), 2022-09-19 09:56:45.878(Timestamp), 9999(Integer)
+2022-09-19 09:56:46 上午 [Thread: main][ Class:com.xie.map.BlogMapper.addBook >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==    Updates: 1
+2022-09-19 09:56:46 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5606c0b]
+2022-09-19 09:56:46 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 90205195 to pool.
+2022-09-19 10:14:16 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-09-19 10:14:16 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-09-19 10:14:16 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:14:16 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:14:16 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:14:16 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:14:16 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2022-09-19 10:14:17 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 300031246.
+2022-09-19 10:14:17 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: select * from blog where title = ?; 
+2022-09-19 10:14:17 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: Spring如此简单(String)
+2022-09-19 10:14:17 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 5
+2022-09-19 10:14:17 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11e21d0e]
+2022-09-19 10:14:17 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 300031246 to pool.
+2022-09-19 10:15:19 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-09-19 10:15:19 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-09-19 10:15:19 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:15:19 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:15:19 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:15:19 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:15:19 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2022-09-19 10:15:20 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 300031246.
+2022-09-19 10:15:20 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: select * from blog where title = ?; 
+2022-09-19 10:15:20 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: Spring如此简单(String)
+2022-09-19 10:15:20 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 5
+2022-09-19 10:15:20 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11e21d0e]
+2022-09-19 10:15:20 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 300031246 to pool.
+2022-09-19 10:16:44 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-09-19 10:16:44 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-09-19 10:16:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:16:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:16:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:16:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:16:44 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2022-09-19 10:16:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 300031246.
+2022-09-19 10:16:44 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: select * from blog where title = ?; 
+2022-09-19 10:16:44 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: Spring如此简单(String)
+2022-09-19 10:16:44 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 5
+2022-09-19 10:16:44 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11e21d0e]
+2022-09-19 10:16:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 300031246 to pool.
+2022-09-19 10:18:02 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-09-19 10:18:02 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-09-19 10:18:02 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:18:02 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:18:02 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:18:02 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2022-09-19 10:18:02 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2022-09-19 10:18:02 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 300031246.
+2022-09-19 10:18:02 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: select * from blog where title = ?; 
+2022-09-19 10:18:02 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: Spring如此简单(String)
+2022-09-19 10:18:02 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 5
+2022-09-19 10:18:02 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: select * from blog where title = ?; 
+2022-09-19 10:18:02 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 微服务如此简单(String)
+2022-09-19 10:18:02 上午 [Thread: main][ Class:com.xie.map.BlogMapper.getBlogByTitle >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 5
+2022-09-19 10:18:02 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11e21d0e]
+2022-09-19 10:18:02 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 300031246 to pool.

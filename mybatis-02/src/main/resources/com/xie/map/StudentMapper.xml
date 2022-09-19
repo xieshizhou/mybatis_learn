@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace绑定一个对应的Dao/Mapper接口-->
+<mapper namespace="com.xie.map.StudentMapper">
+    <resultMap id="stdMap" type="Student">
+        <result column="std_id" property="id"/>
+        <result column="std_name" property="stuName"/>
+        <result column="tid" property="tId"/>
+    </resultMap>
+    <select id="getStudentList" resultMap="stdMap">
+        select * from students;
+    </select>
+    <select id="getStudentById" parameterType="int" resultMap="stdMap">
+        select * from students where std_id = #{id};
+    </select>
+    <insert id="addStudent" >
+        insert into students (std_id,std_name,tid) values (#{id},#{name},#{tid});
+    </insert>
+    <update id="updateStudent" >
+        update students set std_name=#{name},tid=#{tid} where std_id=#{id};
+    </update>
+    <delete id="deleteStudent" >
+        delete from students where std_id=#{id};
+    </delete>
+</mapper>

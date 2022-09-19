@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!--namespace绑定一个对应的Dao/Mapper接口-->
+<mapper namespace="com.xie.map.TeacherMapper">
+    <resultMap id="teacherMap" type="Teacher">
+        <result column="tid" property="tId"/>
+        <result column="tname" property="tName"/>
+    </resultMap>
+    <select id="getTeacherList" resultMap="teacherMap">
+        select * from teachers;
+    </select>
+    <select id="getTeacherById"  resultMap="teacherMap">
+        select * from teachers where tid = #{id};
+    </select>
+    <insert id="addTeacher" >
+        insert into teachers (tid,tname) values (#{id},#{name});
+    </insert>
+    <update id="updateTeacher" >
+        update teachers set tname=#{name} where tid=#{id};
+    </update>
+    <delete id="deleteTeacher" >
+        delete from teachers where tid=#{id};
+    </delete>
+</mapper>
